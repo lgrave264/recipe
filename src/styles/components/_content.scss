@@ -1,0 +1,352 @@
+#contentcontainer{
+    height: auto;
+}
+
+#contentTable{
+    margin-top: 5rem;
+    width: 98%;
+    margin-left: 1rem;
+    border: darkred 0.3rem solid;
+    background-color: #333;
+}
+
+#catlist{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 0;
+    overflow: hidden;
+    background-color: #333;
+    border:white 2px solid;
+    position: fixed;
+    width: 30%;
+    top: 3.25rem;
+    margin-left: 30%;
+}
+
+.sub{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: Anime;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    #catlist {
+        display: block;
+    }
+    .sub{
+        display: block;
+    }
+}
+
+.subtext{
+    color: white;
+}
+
+@media only screen and (max-width: 1700px) {
+    #bigdiv {
+        margin-bottom: 20rem;
+    }
+}
+
+.flex1banner{
+    margin-top: 5rem;
+    background-image: url(../images/banner.jpg);
+    height: 30rem;
+    background-position: 40% 40%;
+}
+
+.flex1{
+    margin-top: 0.5rem;
+    text-align: center;
+    color: white;
+}
+
+.flex1 > div{
+    margin-top: 1rem;
+}
+
+#flex1pfp{
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+}
+
+#flex1text{
+    text-align: center;
+    color: white;
+}
+
+#flex1img{
+    height: 25rem;
+    width: 43.75rem;
+}
+
+#flex1text2{
+    text-align: center;
+    color: white;
+    max-width: 80rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 10rem;
+    font-family: anime;
+    font-size: 200%;
+}
+
+#flex1text3{
+    text-align: center;
+    color: white;
+    max-width: 70rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    font-family: anime;
+    font-size: 200%;
+}
+
+#flex1text4{
+    text-align: center;
+    color: white;
+    max-width: 70rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    font-family: anime;
+    font-size: 200%;
+}
+
+@media only screen and (max-width: 1700px) {
+    #flex1text2 {
+        max-width: 70rem;
+    }
+}
+
+@media only screen and (max-width: 1635px) {
+    #flex1text2 {
+        max-width: 50rem;
+    }
+    #flex1text3 {
+        max-width: 100rem;
+    }
+    #flex1text4 {
+        max-width: 100rem;
+    }
+}
+
+@media only screen and (max-width: 1435px) {
+    #flex1text2 {
+        max-width: 40rem;
+    }
+}
+
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.flex2 > div {
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+#SkillText{
+    color: white;
+    font-family: anime;
+    font-size: 200%;
+}
+
+#SkillText2{
+    color: white;
+    font-family: anime;
+    font-size: 200%;
+    margin-left: 2rem;
+}
+
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.flex3 > div {
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.vacimg1{
+    height: 60rem;
+    width: 45rem;
+    margin-left: 10%;
+}
+
+.vacimg2{
+    height: 60rem;
+    width: 45rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1635px) {
+    .vacimg1 {
+        height: 50rem;
+        width: 35rem;
+    }
+    .vacimg2 {
+        height: 50rem;
+        width: 35rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .vacimg1 {
+        height: 45rem;
+        width: 30rem;
+    }
+    .vacimg2 {
+        height: 45rem;
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 1102px) {
+    .vacimg1 {
+        height: 40rem;
+        width: 25rem;
+    }
+    .vacimg2 {
+        height: 40rem;
+        width: 25rem;
+    }
+}
+
+#flex1text5{
+    text-align: center;
+    color: white;
+    max-width: 90rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-family: anime;
+    font-size: 100%;
+}
+
+#flex1text6{
+    text-align: center;
+    color: white;
+    max-width: 30rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-family: anime;
+    font-size: 100%;
+    
+}
+
+.vacimg3{
+    height: 45rem;
+    width: 55rem;
+    margin-left: 1rem;
+    float: left;
+}
+
+@media only screen and (max-width: 1605px) {
+    .vacimg3 {
+        height: 25rem;
+        width: 35rem;
+    }
+    #flex1text6{
+        float: left;
+    }
+}
+
+.flex3pfp2{
+    float: right;
+    border-radius: 60%;
+    height: 20rem;
+    width: 20rem;
+}
+
+#flex1text7{
+    text-align: center;
+    color: white;
+    max-width: 80rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-family: anime;
+    font-size: 100%;
+}
+
+#flex1text8{
+    text-align: center;
+    color: white;
+    max-width: 80rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-left: 20%;
+    font-family: anime;
+    font-size: 100%;
+}
+
+.flex4{
+    display: flexbox;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    color: white;
+    width: 80%;
+    margin-bottom: 80rem;
+    max-height: 80rem;
+}
+
+.projectdiv{
+    overflow: hidden;
+    border-radius: 1rem;
+    border: white solid 2px;
+    width: 30rem;
+    height: 15rem;
+    margin-left: 1rem;
+    float: left;
+}
+
+@media only screen and (max-width: 1700px) {
+    .projectdiv {
+        height: 10rem;
+        width: 20rem;
+    }
+}
+
+.projectimg{
+    height: 15rem;
+    width: 30rem;
+}
+
+@media only screen and (max-width: 1700px) {
+    .projectimg {
+        height: 10rem;
+        width: 20rem;
+    }
+}
+
+@font-face {
+    font-family: 'anime';
+    src: url(../Util/animeace2_reg.ttf);
+}
+
+.cats{
+    border: white solid 1px;
+}
