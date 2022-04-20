@@ -8,11 +8,8 @@ const Content = () => {
 	const [recipe,setRecipe] =useState([]);
 	// var count = 0;
 	const axios = require('axios').default;
-	const [category, setCategory] = useState();
+	const [category, setCategory] = useState('Italian Pasta');
 
-	function getRec(e){
-		setCategory(document.getElementById("answer").value)
-		e.preventDefault();
 		window.location.reload(false);
 		const options = {
 			method: 'GET',
@@ -30,18 +27,10 @@ const Content = () => {
 		}).catch(function (error) {
 			console.error(error);
 		});
-	}
-	// useEffect(()=>{
-	// 	getRec();
-	// },[])
 
 	if(home === true){
 		return(
 			<div id='bigdiv'>
-				<form id="catlist">
-					<input className="cats" id="answer" placeholder="Search Recipe..." type="text" />
-					<button type="button" onClick={(e) => {getRec(e)}}>Submit</button>
-				</form>
 				<RecipeCat recipe={recipe}/>
 			</div>
 		)
