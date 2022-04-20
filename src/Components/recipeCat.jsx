@@ -4,7 +4,7 @@ const recipeCat = ({recipe}) =>{
 	return(
 		<div className='firstBox'>
 			{recipe.map((rec,i) => {
-				const {title, servings} = rec;
+				const {title, servings, ingredients, instructions} = rec;
 				return(
 					<article key={i}>
 						<div>
