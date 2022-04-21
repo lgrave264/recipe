@@ -6,7 +6,7 @@ const Content = () => {
 	const [recipe,setRecipe] =useState([]);
 	// var count = 0;
 	const axios = require('axios').default;
-	const [category] = useState('Italian Pasta');
+	const [category,setCategory] = useState('Italian Pasta');
 	const getRec = () => {
 		const options = {
 			method: 'GET',
@@ -32,6 +32,11 @@ const Content = () => {
 	if(home === true){
 		return(
 			<div id='bigdiv'>
+				<ul id="catlist">
+					<li><button className='genre'onClick={()=>{setCategory('Italian Pasta');}}>Italy</button></li>
+					<li><button className='genre'onClick={()=>{setCategory('French');}}>France</button></li>
+					<li><button className='genre'onClick={()=>{setCategory('German');}}>Germany</button></li>
+				</ul>
 				<RecipeCat recipe={recipe}/>
 			</div>
 		)

@@ -12,7 +12,6 @@ function Main(){
                 <Navbar/>
                 <Base />
             </section>
-            <Footer/>
         </>
     )
 }
